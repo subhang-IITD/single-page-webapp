@@ -231,9 +231,9 @@ function App() {
                       OUR SERVICES
                     </p>
                     <h2>
-                      Our agency experts will provide you with a
+                      Our experts will provide you with a
                       <span className="font-italic">
-                        full stack of services
+                         full stack of services
                       </span>
                     </h2>
                     <div className="paragraph-wrapper">
@@ -251,7 +251,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff238f8db3c2b56fcc5_Graph.svg"
+                    src="https://em-content.zobj.net/source/apple/354/direct-hit_1f3af.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -269,7 +269,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff2fb77ec00277eda84_Graph-1.svg"
+                      src="https://em-content.zobj.net/source/apple/354/money-with-wings_1f4b8.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -287,7 +287,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff242545a455ec6b105_Graph-2.svg"
+                    src="https://em-content.zobj.net/source/apple/354/man-technologist_1f468-200d-1f4bb.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -305,7 +305,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff268034feef999558a_Graph-5.svg"
+                    src="https://em-content.zobj.net/source/apple/354/hammer-and-wrench_1f6e0-fe0f.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -326,7 +326,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff2418b84783ae47c44_Graph-3.svg"
+                    src="https://em-content.zobj.net/source/apple/354/magnifying-glass-tilted-left_1f50d.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -344,7 +344,7 @@ function App() {
                 <div className="grid-item _25 landscape-50">
                   <div className="service-item">
                     <img
-                      src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190dff233c64a558584d06c_Graph-4.svg"
+                    src="https://em-content.zobj.net/source/apple/354/megaphone_1f4e3.png"
                       loading="lazy"
                       alt="Icon"
                       className="service-icon"
@@ -421,7 +421,7 @@ function App() {
                   <div className="grid-item _33 mobile-100">
                     <div className="feature-item">
                       <img
-                        src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190e625ea41efceb24f3529_img-2.svg"
+                      src="https://em-content.zobj.net/source/apple/354/money-with-wings_1f4b8.png"
                         loading="lazy"
                         alt="Illustration"
                         className="features-img"
