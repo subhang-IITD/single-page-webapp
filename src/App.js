@@ -81,14 +81,13 @@ function App() {
                   <div className="grid-item">
                     <div className="center-content">
                       <h1>
-                        We help leaders grow their businesses for
-                        <span className="font-italic"> a brighter future</span>
+                        <span className="font-italic">HansHills & Company</span>
+                        <br />
+                        Shaping Futures, Driving Innovation
                       </h1>
                       <div className="paragraph-wrapper">
                         <p className="paragraph small">
-                          Quis eu at condimentum amet sed facilisi viverra. Sit
-                          fames sed vulputate auctor tincidunt. Et sit blandit
-                          eu nam scelerisque lorem lectus nibh dis.
+                        Empowering businesses through strategic partnerships, innovative solutions, and collaborative excellence. Join us on a journey where innovation meets impact.
                         </p>
                       </div>
                       <div className="spacer _32"></div>
@@ -157,24 +156,23 @@ function App() {
                   <div className="width-constraint">
                     <p className="paragraph extra-small grey-60">WHAT WE DO</p>
                     <h2>
-                      We provide our expert services
-                      <span className="font-italic">around the world</span>
+                    Driving Business Excellence with HansHills & Co.
+                      <span className="font-italic"> around the world</span>
                     </h2>
                     <div className="paragraph-grey">
                       <p className="paragraph">
-                        Semper eget morbi elit molestie sapien faucibus lacus,
-                        aliquet enim. Lobortis elementum sed quis morbi cursus
-                        vitae non sodales. Faucibus sapien lectus elit mi turpis
-                        vivamus nulla viverra pellentesque.
+                      At HansHills, our passion lies in shaping thriving businesses through strategic partnerships 
+                      and innovative solutions. Our commitment is to redefine 
+                      success for our partners, fostering growth in every aspect of their journey.
                       </p>
                     </div>
                     <div className="spacer _32"></div>
                     <div className="features-wrapper">
-                      <div className="do-item">Firts service</div>
-                      <div className="do-item">Second service</div>
-                      <div className="do-item">Third service</div>
-                      <div className="do-item">Fourth service</div>
-                      <div className="do-item">Fifth service</div>
+                      <div className="do-item">Strategic Partnerships</div>
+                      <div className="do-item">Innovative Solutions</div>
+                      <div className="do-item">Co-Created Projects</div>
+                      <div className="do-item">Public-Private Partnerships</div>
+                      <div className="do-item">Business Development Consulting</div>
                     </div>
                   </div>
                 </div>
@@ -206,15 +204,14 @@ function App() {
                 <div className="grid-item _50 landscape-100">
                   <div className="width-constraint">
                     <h2>
-                      We help you to build
-                      <span className="font-italic">powerful product</span> and
-                      users will love it
+                    We help you Create 
+                      <span className="font-italic"> powerful product</span> that users love
                     </h2>
                     <div className="paragraph-grey">
                       <p className="paragraph">
-                        Eget tincidunt eu vehicula nulla gravida augue augue
-                        vulputate. Malesuada tellus varius rutrum orci praesent.
-                        Nam volutpat a, consectetur arcu ornare.
+                      Our innovative approach and attention to user experience ensure that
+                       your products not only meet but exceed user expectations, 
+                       creating lasting impact in the market.
                       </p>
                     </div>
                   </div>
@@ -231,16 +228,18 @@ function App() {
                       OUR SERVICES
                     </p>
                     <h2>
-                      Our experts will provide you with a
+                    Comprehensive Solutions
                       <span className="font-italic">
-                         full stack of services
+                      Tailored for You
                       </span>
                     </h2>
                     <div className="paragraph-wrapper">
                       <p className="paragraph small">
-                        Quis eu at condimentum amet sed facilisi viverra. Sit
-                        fames sed vulputate auctor tincidunt. Et sit blandit eu
-                        nam scelerisque lorem lectus nibh dis.
+                      Unlock the full potential of your business with our expert-led, end-to-end services.
+                       From ideation to execution, our dedicated team at HansHills & Co. is committed to 
+                       delivering results that propel your business forward."
+
+Services:
                       </p>
                     </div>
                   </div>
@@ -256,12 +255,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>Marketing Strategy</h5>
+                    <h5>Optimization Strategies</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                        Use optimization techniques to enhance efficiency and 
+                        maximize business potential.
                       </p>
                     </div>
                   </div>
@@ -274,12 +273,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>SEO-optimization</h5>
+                    <h5>Data-driven Solutions</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                      Harness the power of data to drive business insights
+                      and informed decision-making.
                       </p>
                     </div>
                   </div>
@@ -292,12 +291,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>Design</h5>
+                    <h5>Design Excellence</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                      Craft visually stunning and user-centric designs 
+                      that leave a lasting impression.
                       </p>
                     </div>
                   </div>
@@ -310,12 +309,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>Development</h5>
+                    <h5>Strategic Development</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                      Implement cutting-edge technologies and robust development 
+                      practices for a scalable and future-ready product.
                       </p>
                     </div>
                   </div>
@@ -331,12 +330,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>Research</h5>
+                    <h5>Market Research</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                      Leverage in-depth research methodologies to uncover 
+                      insights that drive informed decision-making.
                       </p>
                     </div>
                   </div>
@@ -349,12 +348,12 @@ function App() {
                       alt="Icon"
                       className="service-icon"
                     />
-                    <h5>Social Media Promotion</h5>
+                    <h5>Brand Development</h5>
                     <div className="spacer _12"></div>
                     <div className="paragraph-white-50">
                       <p className="paragraph small">
-                        Posuere nisl, ultricies dignissim quis dignissim integer
-                        risus enim dui.
+                      Understand market trends, competition, and opportunities
+                       to make strategic business decisions.
                       </p>
                     </div>
                   </div>
@@ -421,7 +420,7 @@ function App() {
                   <div className="grid-item _33 mobile-100">
                     <div className="feature-item">
                       <img
-                      src="https://em-content.zobj.net/source/apple/354/money-with-wings_1f4b8.png"
+                        src="https://assets.website-files.com/616ef168b3392d785c16ee78/6190e625ea41efceb24f3529_img-2.svg"
                         loading="lazy"
                         alt="Illustration"
                         className="features-img"
@@ -824,9 +823,8 @@ function App() {
                   <div className="center-content">
                     <p className="paragraph extra-small grey-60">OUR TEAM</p>
                     <h2>
-                      Our agency it’s
-                      <span className="font-italic">about the people</span> and
-                      for the people
+                    Meet Our Team:
+                      <span className="font-italic"> A Collective Commitment to Excellence</span>
                     </h2>
                   </div>
                 </div>
@@ -845,6 +843,48 @@ function App() {
                     </div>
                     <h4>Brooklyn Simmons</h4>
                     <h6 className="grey">CEO, Marketing Director</h6>
+                  </div>
+                </div>
+                <div className="grid-item _33 mobile-100">
+                  <div className="team-wrapper">
+                    <div className="team-img-wrapper">
+                      <img
+                        src="https://assets.website-files.com/616ef168b3392d785c16ee78/619213e1cc609462c3ebadab_team-member.jpeg"
+                        loading="lazy"
+                        alt="man"
+                        className="team-img"
+                      />
+                    </div>
+                    <h4>Brooklyn Simmons</h4>
+                    <h6 className="grey">CEO, Marketing Director</h6>
+                  </div>
+                </div>
+                <div className="grid-item _33 mobile-100">
+                  <div className="team-wrapper">
+                    <div className="team-img-wrapper">
+                      <img
+                        src="https://assets.website-files.com/616ef168b3392d785c16ee78/619213e1cc609462c3ebadab_team-member.jpeg"
+                        loading="lazy"
+                        alt="man"
+                        className="team-img"
+                      />
+                    </div>
+                    <h4>Brooklyn Simmons</h4>
+                    <h6 className="grey">CEO, Marketing Director</h6>
+                  </div>
+                </div>
+                <div className="grid-item _33 mobile-100">
+                  <div className="team-wrapper">
+                    <div className="team-img-wrapper">
+                      <img
+                        src="https://assets.website-files.com/616ef168b3392d785c16ee78/619213e142545af60ecc6aea_team-member-1.jpeg"
+                        loading="lazy"
+                        alt=" woman"
+                        className="team-img"
+                      />
+                    </div>
+                    <h4>Jenny Wilson</h4>
+                    <h6 className="grey">Lead Designer</h6>
                   </div>
                 </div>
                 <div className="grid-item _33 mobile-100">
@@ -893,8 +933,8 @@ function App() {
                     </h2>
                     <div className="paragraph-grey">
                       <p className="paragraph">
-                        Velit integer nisl quis eget sedusce sed vulputate ac
-                        accumsan, odio amet. Sit varius pharetra donec.
+                      Discover the inspiring success stories of our clients. 
+                      From overcoming challenges to achieving milestones.
                       </p>
                     </div>
                   </div>
@@ -989,7 +1029,7 @@ function App() {
                       <div className="accordion-heading">
                         <div className="heading-wrapper">
                           <h4 className="accordion-title">
-                            Do you help small business?
+                          How can your services benefit my business?
                           </h4>
                         </div>
                         <div
@@ -1009,13 +1049,10 @@ function App() {
                       </div>
                       <div className="accordion-content">
                         <p className="paragraph accordion">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                        Our comprehensive suite of services, including strategic partnerships, innovative
+                        solutions, and expert guidance, is designed to drive success for your 
+                        business. Collaborate with us to gain access to a wealth of experience and
+                        a dedicated team committed to your growth.
                         </p>
                       </div>
                     </div>
@@ -1023,7 +1060,7 @@ function App() {
                       <div className="accordion-heading">
                         <div className="heading-wrapper">
                           <h4 className="accordion-title">
-                            Can you help my business grow?
+                          Which industries does your firm work with?
                           </h4>
                         </div>
                         <div
@@ -1043,13 +1080,10 @@ function App() {
                       </div>
                       <div className="accordion-content">
                         <p className="paragraph accordion">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                        We collaborate across diverse industries, partnering with startups, multinational
+                        companies, and micro, small, and medium enterprises. Our expertise spans technology,
+                        healthcare, finance, and more. Contact us to discuss tailoring our services to your
+                        specific industry.
                         </p>
                       </div>
                     </div>
@@ -1057,7 +1091,7 @@ function App() {
                       <div className="accordion-heading">
                         <div className="heading-wrapper">
                           <h4 className="accordion-title">
-                            How do you calculate cost of services?
+                          How can I initiate a partnership?
                           </h4>
                         </div>
                         <div
@@ -1077,13 +1111,10 @@ function App() {
                       </div>
                       <div className="accordion-content">
                         <p className="paragraph accordion">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                        Initiating a partnership is simple. Reach out through our contact form,
+                        and our team will promptly get in touch. We'll schedule a consultation
+                        to understand your needs, discuss potential collaborations, and chart
+                        a path forward aligned with your business goals.
                         </p>
                       </div>
                     </div>
@@ -1091,7 +1122,7 @@ function App() {
                       <div className="accordion-heading">
                         <div className="heading-wrapper">
                           <h4 className="accordion-title">
-                            What are your best interest rates?
+                          What makes your approach unique?
                           </h4>
                           <div className="tooltip-wrapper"></div>
                         </div>
@@ -1112,13 +1143,10 @@ function App() {
                       </div>
                       <div className="accordion-content">
                         <p className="paragraph accordion">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                        Our unique approach is rooted in collaboration, innovation, and a commitment to excellence.
+                        We co-create with our clients, ensuring that our solutions are not only effective but also
+                        aligned with their vision. Emphasizing strategic partnerships and forward-thinking 
+                        solutions sets us apart in the consulting landscape.
                         </p>
                       </div>
                     </div>
