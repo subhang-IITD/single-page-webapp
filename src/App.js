@@ -3,6 +3,10 @@ import "./App.css";
 
 
 function App() {
+  function handleSubmit(event){
+    event.preventDefault();
+    alert("Thank you for submitting the form");
+  }
   return (
     <div>
       <div>
@@ -1218,6 +1222,7 @@ Services:
                           type="submit"
                           value="Send a Message"
                           data-wait="Please wait..."
+                          onClick={handleSubmit}
                           className="button secondary green w-button"
                         />
                       </form>
