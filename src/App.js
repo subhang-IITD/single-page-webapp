@@ -6,6 +6,11 @@ function App() {
   function handleSubmit(event){
     event.preventDefault();
     alert("Thank you for submitting the form");
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const question = document.getElementById("question").value;
+    alert("Name: "+name+"\nEmail: "+email+"\nQuestion: "+question);
+    // Use these values
   }
   return (
     <div>
@@ -1188,6 +1193,7 @@ Services:
                         name="email-form"
                         data-name="Email Form"
                         method="get"
+                        onSubmit={handleSubmit}
                       >
                         <input
                           type="text"
@@ -1222,7 +1228,7 @@ Services:
                           type="submit"
                           value="Send a Message"
                           data-wait="Please wait..."
-                          onClick={handleSubmit}
+                          // onSubmit={handleSubmit}
                           className="button secondary green w-button"
                         />
                       </form>
