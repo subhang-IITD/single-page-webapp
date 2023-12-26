@@ -1,17 +1,56 @@
 import "./App.css";
+import React , {useState} from "react";
+
 
 
 
 function App() {
-  function handleSubmit(event){
-    event.preventDefault();
-    alert("Thank you for submitting the form");
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const question = document.getElementById("question").value;
-    alert("Name: "+name+"\nEmail: "+email+"\nQuestion: "+question);
-    // Use these values
+  const [userData, setUserData] = useState({
+    name : "",
+    email : "",
+    query : "",
+  });
+
+  let name, value;
+  const postUserData = (event) =>{
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({...userData, [name]: value});
+};
+
+
+const submitData = async (event) =>{
+  event.preventDefault();
+  const { name , email , query} = userData;
+  
+  try {
+    const res = await fetch('https://hanshills-data-default-rtdb.firebaseio.com/userDataRecord.json', {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        query
+      })
+    });
+
+    if (res.ok) {
+      console.log("Data stored successfully:", userData);
+      alert("Data stored");
+    } else {
+      console.error("Failed to store data:", res.status, res.statusText);
+      alert("Failed to store data. Check console for details.");
+    }
+  } catch (error) {
+    console.error("Error during fetch:", error);
+    alert("Failed to store data. Check console for details.");
   }
+};
+
+
   return (
     <div>
       <div>
@@ -1192,8 +1231,8 @@ Services:
                         id="email-form"
                         name="email-form"
                         data-name="Email Form"
-                        method="get"
-                        onSubmit={handleSubmit}
+                        method="POST"
+                        
                       >
                         <input
                           type="text"
@@ -1203,6 +1242,8 @@ Services:
                           data-name="name"
                           placeholder="Your Name *"
                           id="name"
+                          value = {userData.name}
+                          onChange = {postUserData}
                           required=""
                         />
                         <input
@@ -1212,6 +1253,8 @@ Services:
                           name="email"
                           data-name="email"
                           placeholder="Type Your Email *"
+                          value = {userData.email}
+                          onChange = {postUserData}
                           id="email"
                           required=""
                         />
@@ -1219,17 +1262,21 @@ Services:
                           data-name="question"
                           maxLength="5000"
                           id="question"
-                          name="question"
+                          name="query"
                           placeholder="Ask your question"
+                          value = {userData.query}
+                          onChange = {postUserData}
                           className="text-field area w-input"
                         ></textarea>
                         <div className="spacer _20"></div>
                         <input
+                          placeholder = "Submit"
                           type="submit"
                           value="Send a Message"
                           data-wait="Please wait..."
                           // onSubmit={handleSubmit}
                           className="button secondary green w-button"
+                          onClick={submitData}
                         />
                       </form>
                       <div className="success-message w-form-done">
