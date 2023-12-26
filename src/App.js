@@ -1,5 +1,7 @@
 import "./App.css";
 import React , {useState} from "react";
+import mainlogo from "./logo.png";
+
 
 
 
@@ -57,7 +59,12 @@ const submitData = async (event) =>{
         <div className="page-overlay">
           <div className="overlay-transition"></div>
           <div className="logo-loader-wrapper">
-            <img src={"./logo.png"}alt="hanshills logo" />
+            <img src = {mainlogo}
+
+             loading="lazy"
+             
+
+             alt="hanshills logo" />
           </div>
         </div>
         <div
@@ -77,7 +84,8 @@ const submitData = async (event) =>{
                 className="nav-brand w-nav-brand w--current"
               >
                 <img
-                  src="url(file:///C:/Users/Subhang%20Ladha/OneDrive/Desktop/learnproject/hanshills/hanshills/src/components/logo.png)"
+                src = {mainlogo}
+                  
                   loading="lazy"
                   alt="hanshills-white"
                   className="brand-img"
@@ -1305,7 +1313,10 @@ Services:
                     className="footer-logo w-inline-block w--current"
                   >
                     <img
-                      src="./components/logo.png"
+                      src={mainlogo}
+                      width="120"
+                      sizes="(max-width: 479px) 100vw, 120px"
+                      srcSet={mainlogo}
                       loading="lazy"
                       alt="HansHills Logo"
                     />
